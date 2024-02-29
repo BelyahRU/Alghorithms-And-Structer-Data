@@ -75,12 +75,29 @@ class Solutions {
         
         startExcel()
         startSingleNumber()
-        
+        startPowerOfTwo()
+        startBestProfit()
+        startReverseWords()
+    }
+    
+    private func startReverseWords() {
+        let solutionClass = ReverseWords()
+        print(solutionClass.reverseWords("  hello world  "))
+    }
+    
+    private func startBestProfit() {
+        let solutionClass = BestTime()
+        print(solutionClass.maxProfit([7,1,5,3,6,4]))
     }
     
     private func startExcel() {
         let excel = Excel()
         print(excel.convertToTitle(702))
+    }
+    
+    private func startPowerOfTwo() {
+        let solutionClass = PowerOfTwo()
+        print(solutionClass.isPowerOfTwo(-16))
     }
     
     private func startSingleNumber() {

@@ -16,13 +16,18 @@
 import Foundation
 class BestTime {
     public func maxProfit(_ prices: [Int]) -> Int {
-        var profit = 0
-        let minvalIndex = prices.index(after: prices.min()!)
-        let maxvalIndex = prices
-        for i in minvalIndex..<prices.count {
+        var bestProfit = 0
+        var minValue = Int.max
+        for i in prices {
+            if i < minValue {
+                minValue = i
+            }
             
+            if bestProfit < i - minValue {
+                bestProfit =  i - minValue
+            }
         }
         
-        return profit
+        return bestProfit
     }
 }

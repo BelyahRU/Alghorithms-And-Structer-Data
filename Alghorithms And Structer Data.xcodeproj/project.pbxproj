@@ -11,6 +11,9 @@
 		1A7D4E332B8910EF00793E72 /* Merge Two Sorted List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7D4E322B8910EF00793E72 /* Merge Two Sorted List.swift */; };
 		1A7D4E352B8E260D00793E72 /* Excel Sheet Column Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7D4E342B8E260D00793E72 /* Excel Sheet Column Title.swift */; };
 		1ABA0A7D2B90CBF10036DA5B /* Single Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABA0A7C2B90CBF10036DA5B /* Single Number.swift */; };
+		1ABA0A7F2B90D4BD0036DA5B /* Power of Two.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABA0A7E2B90D4BD0036DA5B /* Power of Two.swift */; };
+		1ABA0A812B90D9620036DA5B /* Design Linked List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABA0A802B90D9620036DA5B /* Design Linked List.swift */; };
+		1ABA0A832B90E7AC0036DA5B /* Reverse Words.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABA0A822B90E7AC0036DA5B /* Reverse Words.swift */; };
 		1ABAEC4E2B8628E40053EBDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABAEC4D2B8628E40053EBDD /* AppDelegate.swift */; };
 		1ABAEC502B8628E40053EBDD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABAEC4F2B8628E40053EBDD /* SceneDelegate.swift */; };
 		1ABAEC522B8628E40053EBDD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABAEC512B8628E40053EBDD /* ViewController.swift */; };
@@ -30,6 +33,9 @@
 		1A7D4E322B8910EF00793E72 /* Merge Two Sorted List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Merge Two Sorted List.swift"; sourceTree = "<group>"; };
 		1A7D4E342B8E260D00793E72 /* Excel Sheet Column Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Excel Sheet Column Title.swift"; sourceTree = "<group>"; };
 		1ABA0A7C2B90CBF10036DA5B /* Single Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Single Number.swift"; sourceTree = "<group>"; };
+		1ABA0A7E2B90D4BD0036DA5B /* Power of Two.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Power of Two.swift"; sourceTree = "<group>"; };
+		1ABA0A802B90D9620036DA5B /* Design Linked List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Design Linked List.swift"; sourceTree = "<group>"; };
+		1ABA0A822B90E7AC0036DA5B /* Reverse Words.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Reverse Words.swift"; sourceTree = "<group>"; };
 		1ABAEC4A2B8628E40053EBDD /* Alghorithms And Structer Data.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alghorithms And Structer Data.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ABAEC4D2B8628E40053EBDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1ABAEC4F2B8628E40053EBDD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -109,6 +115,9 @@
 				1A7D4E322B8910EF00793E72 /* Merge Two Sorted List.swift */,
 				1A7D4E342B8E260D00793E72 /* Excel Sheet Column Title.swift */,
 				1ABA0A7C2B90CBF10036DA5B /* Single Number.swift */,
+				1ABA0A7E2B90D4BD0036DA5B /* Power of Two.swift */,
+				1ABA0A802B90D9620036DA5B /* Design Linked List.swift */,
+				1ABA0A822B90E7AC0036DA5B /* Reverse Words.swift */,
 			);
 			path = Tasks;
 			sourceTree = "<group>";
@@ -187,15 +196,18 @@
 			files = (
 				1ABAEC6B2B86303A0053EBDD /* Valid Sudoku.swift in Sources */,
 				1ABAEC692B862D5E0053EBDD /* Contains Duplicate.swift in Sources */,
+				1ABA0A812B90D9620036DA5B /* Design Linked List.swift in Sources */,
 				1A7D4E312B87C61900793E72 /* Best Time to Buy and Sell Stock.swift in Sources */,
 				1ABAEC522B8628E40053EBDD /* ViewController.swift in Sources */,
 				1ABAEC642B86296D0053EBDD /* Pascal's Triangle.swift in Sources */,
 				1ABA0A7D2B90CBF10036DA5B /* Single Number.swift in Sources */,
+				1ABA0A7F2B90D4BD0036DA5B /* Power of Two.swift in Sources */,
 				1A7D4E332B8910EF00793E72 /* Merge Two Sorted List.swift in Sources */,
 				1ABAEC4E2B8628E40053EBDD /* AppDelegate.swift in Sources */,
 				1ABAEC672B862BEA0053EBDD /* Two Sum.swift in Sources */,
 				1ABAEC622B8629240053EBDD /* Solutions.swift in Sources */,
 				1A7D4E352B8E260D00793E72 /* Excel Sheet Column Title.swift in Sources */,
+				1ABA0A832B90E7AC0036DA5B /* Reverse Words.swift in Sources */,
 				1ABAEC502B8628E40053EBDD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

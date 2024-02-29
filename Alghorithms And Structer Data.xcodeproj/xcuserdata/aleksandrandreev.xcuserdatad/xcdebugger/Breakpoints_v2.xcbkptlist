@@ -132,5 +132,53 @@
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BA7B9AB5-C6A3-4A6B-8350-9A9655BF0D2B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Alghorithms And Structer Data/Tasks/Power of Two.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "isPowerOfTwo(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BA7B9AB5-C6A3-4A6B-8350-9A9655BF0D2B - c5df6bb96154eb6a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Alghorithms_And_Structer_Data.PowerOfTwo.isPowerOfTwo(Swift.Int) -&gt; Swift.Bool"
+                  moduleName = "Alghorithms And Structer Data"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aleksandrandreev/Desktop/IOS/Study/Alghorithms%20And%20Structer%20Data/Alghorithms%20And%20Structer%20Data/Tasks/Power%20of%20Two.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "100">
+               </Location>
+               <Location
+                  uuid = "BA7B9AB5-C6A3-4A6B-8350-9A9655BF0D2B - c5df6bb96154eb6a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Alghorithms_And_Structer_Data.PowerOfTwo.isPowerOfTwo(Swift.Int) -&gt; Swift.Bool"
+                  moduleName = "Alghorithms And Structer Data"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aleksandrandreev/Desktop/IOS/Study/Alghorithms%20And%20Structer%20Data/Alghorithms%20And%20Structer%20Data/Tasks/Power%20of%20Two.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "96">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>
