@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "1BF75848-56C4-49E1-9DA1-150F16566B07"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "810895BA-EEB5-4F47-886B-9BD3DA956F58"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Alghorithms And Structer Data/Contains Duplicate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "containsDuplicate2(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "810895BA-EEB5-4F47-886B-9BD3DA956F58 - c7d2fbea49c289ff"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Alghorithms_And_Structer_Data.ContainsDuplicate.containsDuplicate2(Swift.Array&lt;Swift.Int&gt;) -&gt; Swift.Bool"
+                  moduleName = "Alghorithms And Structer Data"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aleksandrandreev/Desktop/IOS/Study/Alghorithms%20And%20Structer%20Data/Alghorithms%20And%20Structer%20Data/Contains%20Duplicate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  uuid = "810895BA-EEB5-4F47-886B-9BD3DA956F58 - c7d2fbea49c289ff"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Alghorithms_And_Structer_Data.ContainsDuplicate.containsDuplicate2(Swift.Array&lt;Swift.Int&gt;) -&gt; Swift.Bool"
+                  moduleName = "Alghorithms And Structer Data"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aleksandrandreev/Desktop/IOS/Study/Alghorithms%20And%20Structer%20Data/Alghorithms%20And%20Structer%20Data/Contains%20Duplicate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "140">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "64DE1632-43CC-49DB-8475-A1BCE88EA92B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Alghorithms And Structer Data/Tasks/Merge Two Sorted List.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "mergeTwoLists(_:_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "64DE1632-43CC-49DB-8475-A1BCE88EA92B - 55aa31d801438ddb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Alghorithms_And_Structer_Data.LinkedLists.mergeTwoLists(Swift.Optional&lt;Alghorithms_And_Structer_Data.ListNode&gt;, Swift.Optional&lt;Alghorithms_And_Structer_Data.ListNode&gt;) -&gt; Swift.Optional&lt;Alghorithms_And_Structer_Data.ListNode&gt;"
+                  moduleName = "Alghorithms And Structer Data"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aleksandrandreev/Desktop/IOS/Study/Alghorithms%20And%20Structer%20Data/Alghorithms%20And%20Structer%20Data/Tasks/Merge%20Two%20Sorted%20List.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "1116">
+               </Location>
+               <Location
+                  uuid = "64DE1632-43CC-49DB-8475-A1BCE88EA92B - 55aa31d801438ddb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Alghorithms_And_Structer_Data.LinkedLists.mergeTwoLists(Swift.Optional&lt;Alghorithms_And_Structer_Data.ListNode&gt;, Swift.Optional&lt;Alghorithms_And_Structer_Data.ListNode&gt;) -&gt; Swift.Optional&lt;Alghorithms_And_Structer_Data.ListNode&gt;"
+                  moduleName = "Alghorithms And Structer Data"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aleksandrandreev/Desktop/IOS/Study/Alghorithms%20And%20Structer%20Data/Alghorithms%20And%20Structer%20Data/Tasks/Merge%20Two%20Sorted%20List.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "1104">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B05CD73E-D304-4DBB-BE2D-5C07190F3959"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Alghorithms And Structer Data/Solutions.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "setupSolutions()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6D3B013E-A780-47A7-9AAF-78C172CE4627"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Alghorithms And Structer Data/Tasks/Merge Two Sorted List.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
+            landmarkName = "deleteDuplicates(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

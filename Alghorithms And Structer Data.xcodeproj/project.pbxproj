@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A7D4E312B87C61900793E72 /* Best Time to Buy and Sell Stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7D4E302B87C61900793E72 /* Best Time to Buy and Sell Stock.swift */; };
+		1A7D4E332B8910EF00793E72 /* Merge Two Sorted List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7D4E322B8910EF00793E72 /* Merge Two Sorted List.swift */; };
+		1A7D4E352B8E260D00793E72 /* Excel Sheet Column Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7D4E342B8E260D00793E72 /* Excel Sheet Column Title.swift */; };
+		1ABA0A7D2B90CBF10036DA5B /* Single Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABA0A7C2B90CBF10036DA5B /* Single Number.swift */; };
+		1ABAEC4E2B8628E40053EBDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABAEC4D2B8628E40053EBDD /* AppDelegate.swift */; };
+		1ABAEC502B8628E40053EBDD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABAEC4F2B8628E40053EBDD /* SceneDelegate.swift */; };
+		1ABAEC522B8628E40053EBDD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABAEC512B8628E40053EBDD /* ViewController.swift */; };
+		1ABAEC552B8628E40053EBDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ABAEC532B8628E40053EBDD /* Main.storyboard */; };
+		1ABAEC572B8628E50053EBDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ABAEC562B8628E50053EBDD /* Assets.xcassets */; };
+		1ABAEC5A2B8628E50053EBDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ABAEC582B8628E50053EBDD /* LaunchScreen.storyboard */; };
+		1ABAEC622B8629240053EBDD /* Solutions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABAEC612B8629240053EBDD /* Solutions.swift */; };
+		1ABAEC642B86296D0053EBDD /* Pascal's Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABAEC632B86296D0053EBDD /* Pascal's Triangle.swift */; };
+		1ABAEC672B862BEA0053EBDD /* Two Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABAEC662B862BEA0053EBDD /* Two Sum.swift */; };
+		1ABAEC692B862D5E0053EBDD /* Contains Duplicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABAEC682B862D5E0053EBDD /* Contains Duplicate.swift */; };
+		1ABAEC6B2B86303A0053EBDD /* Valid Sudoku.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABAEC6A2B86303A0053EBDD /* Valid Sudoku.swift */; };
+		1ABAEC6F2B8632560053EBDD /* Solved in Resources */ = {isa = PBXBuildFile; fileRef = 1ABAEC6E2B8632560053EBDD /* Solved */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A7D4E302B87C61900793E72 /* Best Time to Buy and Sell Stock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Best Time to Buy and Sell Stock.swift"; sourceTree = "<group>"; };
+		1A7D4E322B8910EF00793E72 /* Merge Two Sorted List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Merge Two Sorted List.swift"; sourceTree = "<group>"; };
+		1A7D4E342B8E260D00793E72 /* Excel Sheet Column Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Excel Sheet Column Title.swift"; sourceTree = "<group>"; };
+		1ABA0A7C2B90CBF10036DA5B /* Single Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Single Number.swift"; sourceTree = "<group>"; };
+		1ABAEC4A2B8628E40053EBDD /* Alghorithms And Structer Data.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alghorithms And Structer Data.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ABAEC4D2B8628E40053EBDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1ABAEC4F2B8628E40053EBDD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1ABAEC512B8628E40053EBDD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1ABAEC542B8628E40053EBDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1ABAEC562B8628E50053EBDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1ABAEC592B8628E50053EBDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1ABAEC5B2B8628E50053EBDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1ABAEC612B8629240053EBDD /* Solutions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solutions.swift; sourceTree = "<group>"; };
+		1ABAEC632B86296D0053EBDD /* Pascal's Triangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Pascal's Triangle.swift"; sourceTree = "<group>"; };
+		1ABAEC662B862BEA0053EBDD /* Two Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Two Sum.swift"; sourceTree = "<group>"; };
+		1ABAEC682B862D5E0053EBDD /* Contains Duplicate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Contains Duplicate.swift"; sourceTree = "<group>"; };
+		1ABAEC6A2B86303A0053EBDD /* Valid Sudoku.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Valid Sudoku.swift"; sourceTree = "<group>"; };
+		1ABAEC6E2B8632560053EBDD /* Solved */ = {isa = PBXFileReference; lastKnownFileType = text; path = Solved; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1ABAEC472B8628E40053EBDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1ABAEC412B8628E40053EBDD = {
+			isa = PBXGroup;
+			children = (
+				1ABAEC4C2B8628E40053EBDD /* Alghorithms And Structer Data */,
+				1ABAEC4B2B8628E40053EBDD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1ABAEC4B2B8628E40053EBDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1ABAEC4A2B8628E40053EBDD /* Alghorithms And Structer Data.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1ABAEC4C2B8628E40053EBDD /* Alghorithms And Structer Data */ = {
+			isa = PBXGroup;
+			children = (
+				1ABAEC6E2B8632560053EBDD /* Solved */,
+				1ABAEC612B8629240053EBDD /* Solutions.swift */,
+				1ABAEC702B8632810053EBDD /* Tasks */,
+				1ABAEC652B86297A0053EBDD /* Sources */,
+			);
+			path = "Alghorithms And Structer Data";
+			sourceTree = "<group>";
+		};
+		1ABAEC652B86297A0053EBDD /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				1ABAEC5B2B8628E50053EBDD /* Info.plist */,
+				1ABAEC4D2B8628E40053EBDD /* AppDelegate.swift */,
+				1ABAEC4F2B8628E40053EBDD /* SceneDelegate.swift */,
+				1ABAEC512B8628E40053EBDD /* ViewController.swift */,
+				1ABAEC582B8628E50053EBDD /* LaunchScreen.storyboard */,
+				1ABAEC532B8628E40053EBDD /* Main.storyboard */,
+				1ABAEC562B8628E50053EBDD /* Assets.xcassets */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		1ABAEC702B8632810053EBDD /* Tasks */ = {
+			isa = PBXGroup;
+			children = (
+				1ABAEC662B862BEA0053EBDD /* Two Sum.swift */,
+				1ABAEC632B86296D0053EBDD /* Pascal's Triangle.swift */,
+				1ABAEC682B862D5E0053EBDD /* Contains Duplicate.swift */,
+				1ABAEC6A2B86303A0053EBDD /* Valid Sudoku.swift */,
+				1A7D4E302B87C61900793E72 /* Best Time to Buy and Sell Stock.swift */,
+				1A7D4E322B8910EF00793E72 /* Merge Two Sorted List.swift */,
+				1A7D4E342B8E260D00793E72 /* Excel Sheet Column Title.swift */,
+				1ABA0A7C2B90CBF10036DA5B /* Single Number.swift */,
+			);
+			path = Tasks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1ABAEC492B8628E40053EBDD /* Alghorithms And Structer Data */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1ABAEC5E2B8628E50053EBDD /* Build configuration list for PBXNativeTarget "Alghorithms And Structer Data" */;
+			buildPhases = (
+				1ABAEC462B8628E40053EBDD /* Sources */,
+				1ABAEC472B8628E40053EBDD /* Frameworks */,
+				1ABAEC482B8628E40053EBDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Alghorithms And Structer Data";
+			productName = "Alghorithms And Structer Data";
+			productReference = 1ABAEC4A2B8628E40053EBDD /* Alghorithms And Structer Data.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1ABAEC422B8628E40053EBDD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					1ABAEC492B8628E40053EBDD = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 1ABAEC452B8628E40053EBDD /* Build configuration list for PBXProject "Alghorithms And Structer Data" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1ABAEC412B8628E40053EBDD;
+			productRefGroup = 1ABAEC4B2B8628E40053EBDD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1ABAEC492B8628E40053EBDD /* Alghorithms And Structer Data */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1ABAEC482B8628E40053EBDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ABAEC5A2B8628E50053EBDD /* LaunchScreen.storyboard in Resources */,
+				1ABAEC572B8628E50053EBDD /* Assets.xcassets in Resources */,
+				1ABAEC552B8628E40053EBDD /* Main.storyboard in Resources */,
+				1ABAEC6F2B8632560053EBDD /* Solved in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1ABAEC462B8628E40053EBDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ABAEC6B2B86303A0053EBDD /* Valid Sudoku.swift in Sources */,
+				1ABAEC692B862D5E0053EBDD /* Contains Duplicate.swift in Sources */,
+				1A7D4E312B87C61900793E72 /* Best Time to Buy and Sell Stock.swift in Sources */,
+				1ABAEC522B8628E40053EBDD /* ViewController.swift in Sources */,
+				1ABAEC642B86296D0053EBDD /* Pascal's Triangle.swift in Sources */,
+				1ABA0A7D2B90CBF10036DA5B /* Single Number.swift in Sources */,
+				1A7D4E332B8910EF00793E72 /* Merge Two Sorted List.swift in Sources */,
+				1ABAEC4E2B8628E40053EBDD /* AppDelegate.swift in Sources */,
+				1ABAEC672B862BEA0053EBDD /* Two Sum.swift in Sources */,
+				1ABAEC622B8629240053EBDD /* Solutions.swift in Sources */,
+				1A7D4E352B8E260D00793E72 /* Excel Sheet Column Title.swift in Sources */,
+				1ABAEC502B8628E40053EBDD /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1ABAEC532B8628E40053EBDD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1ABAEC542B8628E40053EBDD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1ABAEC582B8628E50053EBDD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1ABAEC592B8628E50053EBDD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1ABAEC5C2B8628E50053EBDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1ABAEC5D2B8628E50053EBDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1ABAEC5F2B8628E50053EBDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Alghorithms And Structer Data/Sources/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Aleksandr.Alghorithms-And-Structer-Data";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1ABAEC602B8628E50053EBDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Alghorithms And Structer Data/Sources/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Aleksandr.Alghorithms-And-Structer-Data";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1ABAEC452B8628E40053EBDD /* Build configuration list for PBXProject "Alghorithms And Structer Data" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ABAEC5C2B8628E50053EBDD /* Debug */,
+				1ABAEC5D2B8628E50053EBDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1ABAEC5E2B8628E50053EBDD /* Build configuration list for PBXNativeTarget "Alghorithms And Structer Data" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ABAEC5F2B8628E50053EBDD /* Debug */,
+				1ABAEC602B8628E50053EBDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1ABAEC422B8628E40053EBDD /* Project object */;
+}
