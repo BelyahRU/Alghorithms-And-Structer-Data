@@ -78,6 +78,12 @@ class Solutions {
         startPowerOfTwo()
         startBestProfit()
         startReverseWords()
+        startValidParentheses()
+    }
+    
+    private func startValidParentheses() {
+        let solutionClass = ValidParentheses()
+        print(solutionClass.isValid("()"))
     }
     
     private func startReverseWords() {

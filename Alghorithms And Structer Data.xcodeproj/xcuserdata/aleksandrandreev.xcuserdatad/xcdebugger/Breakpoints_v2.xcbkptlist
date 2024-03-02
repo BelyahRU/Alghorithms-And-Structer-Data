@@ -180,5 +180,113 @@
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BE052B79-6050-4B26-9D01-48DEDCE95FD3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Alghorithms And Structer Data/Tasks/ValidParentheses.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "isValid(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BE052B79-6050-4B26-9D01-48DEDCE95FD3 - b101056fc648bf4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Alghorithms_And_Structer_Data.ValidParentheses.isValid(Swift.String) -&gt; Swift.Bool"
+                  moduleName = "Alghorithms And Structer Data"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aleksandrandreev/Desktop/IOS/Study/Alghorithms%20And%20Structer%20Data/Alghorithms%20And%20Structer%20Data/Tasks/ValidParentheses.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "140">
+               </Location>
+               <Location
+                  uuid = "BE052B79-6050-4B26-9D01-48DEDCE95FD3 - b101056fc648bf4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Alghorithms_And_Structer_Data.ValidParentheses.isValid(Swift.String) -&gt; Swift.Bool"
+                  moduleName = "Alghorithms And Structer Data"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aleksandrandreev/Desktop/IOS/Study/Alghorithms%20And%20Structer%20Data/Alghorithms%20And%20Structer%20Data/Tasks/ValidParentheses.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "168">
+               </Location>
+               <Location
+                  uuid = "BE052B79-6050-4B26-9D01-48DEDCE95FD3 - b101056fc648bf4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Alghorithms_And_Structer_Data.ValidParentheses.isValid(Swift.String) -&gt; Swift.Bool"
+                  moduleName = "Alghorithms And Structer Data"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aleksandrandreev/Desktop/IOS/Study/Alghorithms%20And%20Structer%20Data/Alghorithms%20And%20Structer%20Data/Tasks/ValidParentheses.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "148">
+               </Location>
+               <Location
+                  uuid = "BE052B79-6050-4B26-9D01-48DEDCE95FD3 - b101056fc648bf4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Alghorithms_And_Structer_Data.ValidParentheses.isValid(Swift.String) -&gt; Swift.Bool"
+                  moduleName = "Alghorithms And Structer Data"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aleksandrandreev/Desktop/IOS/Study/Alghorithms%20And%20Structer%20Data/Alghorithms%20And%20Structer%20Data/Tasks/ValidParentheses.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "144">
+               </Location>
+               <Location
+                  uuid = "BE052B79-6050-4B26-9D01-48DEDCE95FD3 - b101056fc648bf4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Alghorithms_And_Structer_Data.ValidParentheses.isValid(Swift.String) -&gt; Swift.Bool"
+                  moduleName = "Alghorithms And Structer Data"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aleksandrandreev/Desktop/IOS/Study/Alghorithms%20And%20Structer%20Data/Alghorithms%20And%20Structer%20Data/Tasks/ValidParentheses.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "BE052B79-6050-4B26-9D01-48DEDCE95FD3 - b101056fc648bf4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Alghorithms_And_Structer_Data.ValidParentheses.isValid(Swift.String) -&gt; Swift.Bool"
+                  moduleName = "Alghorithms And Structer Data"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aleksandrandreev/Desktop/IOS/Study/Alghorithms%20And%20Structer%20Data/Alghorithms%20And%20Structer%20Data/Tasks/ValidParentheses.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "116">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>
