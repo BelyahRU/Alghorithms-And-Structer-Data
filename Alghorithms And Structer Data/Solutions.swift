@@ -79,6 +79,12 @@ class Solutions {
         startBestProfit()
         startReverseWords()
         startValidParentheses()
+        startBaseballGame()
+    }
+    
+    private func startBaseballGame() {
+        let solutionClass = BaseballGame()
+        print(solutionClass.calPoints(["5","-2","4","C","D","9","+","+"]))
     }
     
     private func startValidParentheses() {
