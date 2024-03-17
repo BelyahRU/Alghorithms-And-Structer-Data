@@ -81,8 +81,14 @@ class Solutions {
         startValidParentheses()
         startBaseballGame()
         startMiddleOfLL()
+        startContainsDuplicate2()
+    }
+    private func startContainsDuplicate2() {
+        let solutionClass = ContainsDuplicate2()
+        print(solutionClass.containsNearbyDuplicate([1,0,1,1], 1))
         
     }
+    
     private func startMiddleOfLL() {
         let solutionClass = MiddleOfTheLinkedList()
         var list = ListNode(1)

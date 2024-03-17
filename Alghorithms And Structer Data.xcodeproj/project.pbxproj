@@ -29,6 +29,7 @@
 		1ABAEC6B2B86303A0053EBDD /* Valid Sudoku.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABAEC6A2B86303A0053EBDD /* Valid Sudoku.swift */; };
 		1ABAEC6F2B8632560053EBDD /* Solved in Resources */ = {isa = PBXBuildFile; fileRef = 1ABAEC6E2B8632560053EBDD /* Solved */; };
 		1AE3B3BE2BA7649600E2AFA9 /* MiddleOfTheLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE3B3BD2BA7649600E2AFA9 /* MiddleOfTheLinkedList.swift */; };
+		1AE3B3C02BA7695700E2AFA9 /* ContainsDuplicate2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE3B3BF2BA7695700E2AFA9 /* ContainsDuplicate2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		1ABAEC6A2B86303A0053EBDD /* Valid Sudoku.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Valid Sudoku.swift"; sourceTree = "<group>"; };
 		1ABAEC6E2B8632560053EBDD /* Solved */ = {isa = PBXFileReference; lastKnownFileType = text; path = Solved; sourceTree = "<group>"; };
 		1AE3B3BD2BA7649600E2AFA9 /* MiddleOfTheLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiddleOfTheLinkedList.swift; sourceTree = "<group>"; };
+		1AE3B3BF2BA7695700E2AFA9 /* ContainsDuplicate2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainsDuplicate2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 				1A57BFEB2B93662500E7D7A6 /* ValidParentheses.swift */,
 				1A57BFED2B93714800E7D7A6 /* BaseballGame.swift */,
 				1AE3B3BD2BA7649600E2AFA9 /* MiddleOfTheLinkedList.swift */,
+				1AE3B3BF2BA7695700E2AFA9 /* ContainsDuplicate2.swift */,
 			);
 			path = Tasks;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 				1ABAEC522B8628E40053EBDD /* ViewController.swift in Sources */,
 				1ABAEC642B86296D0053EBDD /* Pascal's Triangle.swift in Sources */,
 				1ABA0A7D2B90CBF10036DA5B /* Single Number.swift in Sources */,
+				1AE3B3C02BA7695700E2AFA9 /* ContainsDuplicate2.swift in Sources */,
 				1ABA0A7F2B90D4BD0036DA5B /* Power of Two.swift in Sources */,
 				1A7D4E332B8910EF00793E72 /* Merge Two Sorted List.swift in Sources */,
 				1ABAEC4E2B8628E40053EBDD /* AppDelegate.swift in Sources */,
