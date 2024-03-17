@@ -80,6 +80,21 @@ class Solutions {
         startReverseWords()
         startValidParentheses()
         startBaseballGame()
+        startMiddleOfLL()
+        
+    }
+    private func startMiddleOfLL() {
+        let solutionClass = MiddleOfTheLinkedList()
+        var list = ListNode(1)
+        let head = list
+        list.next = ListNode(2)
+        list.next!.next = ListNode(3)
+        list.next!.next!.next = ListNode(4)
+        list.next!.next!.next!.next = ListNode(5)
+//        list.next!.next!.next!.next!.next = ListNode(6)
+        
+        var answer = solutionClass.middleNode(head)
+        print(answer!.val)
         
     }
     

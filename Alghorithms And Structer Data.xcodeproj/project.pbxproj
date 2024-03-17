@@ -28,6 +28,7 @@
 		1ABAEC692B862D5E0053EBDD /* Contains Duplicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABAEC682B862D5E0053EBDD /* Contains Duplicate.swift */; };
 		1ABAEC6B2B86303A0053EBDD /* Valid Sudoku.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABAEC6A2B86303A0053EBDD /* Valid Sudoku.swift */; };
 		1ABAEC6F2B8632560053EBDD /* Solved in Resources */ = {isa = PBXBuildFile; fileRef = 1ABAEC6E2B8632560053EBDD /* Solved */; };
+		1AE3B3BE2BA7649600E2AFA9 /* MiddleOfTheLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE3B3BD2BA7649600E2AFA9 /* MiddleOfTheLinkedList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		1ABAEC682B862D5E0053EBDD /* Contains Duplicate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Contains Duplicate.swift"; sourceTree = "<group>"; };
 		1ABAEC6A2B86303A0053EBDD /* Valid Sudoku.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Valid Sudoku.swift"; sourceTree = "<group>"; };
 		1ABAEC6E2B8632560053EBDD /* Solved */ = {isa = PBXFileReference; lastKnownFileType = text; path = Solved; sourceTree = "<group>"; };
+		1AE3B3BD2BA7649600E2AFA9 /* MiddleOfTheLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiddleOfTheLinkedList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 				1ABA0A822B90E7AC0036DA5B /* Reverse Words.swift */,
 				1A57BFEB2B93662500E7D7A6 /* ValidParentheses.swift */,
 				1A57BFED2B93714800E7D7A6 /* BaseballGame.swift */,
+				1AE3B3BD2BA7649600E2AFA9 /* MiddleOfTheLinkedList.swift */,
 			);
 			path = Tasks;
 			sourceTree = "<group>";
@@ -204,6 +207,7 @@
 				1ABAEC692B862D5E0053EBDD /* Contains Duplicate.swift in Sources */,
 				1ABA0A812B90D9620036DA5B /* Design Linked List.swift in Sources */,
 				1A57BFEC2B93662500E7D7A6 /* ValidParentheses.swift in Sources */,
+				1AE3B3BE2BA7649600E2AFA9 /* MiddleOfTheLinkedList.swift in Sources */,
 				1A7D4E312B87C61900793E72 /* Best Time to Buy and Sell Stock.swift in Sources */,
 				1ABAEC522B8628E40053EBDD /* ViewController.swift in Sources */,
 				1ABAEC642B86296D0053EBDD /* Pascal's Triangle.swift in Sources */,
