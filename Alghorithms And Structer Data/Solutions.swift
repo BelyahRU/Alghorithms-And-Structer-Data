@@ -82,7 +82,19 @@ class Solutions {
         startBaseballGame()
         startMiddleOfLL()
         startContainsDuplicate2()
+        startReverseLinkedList()
     }
+    private func startReverseLinkedList() {
+        let solutionClass = ReverseLinkedList()
+        var list = ListNode(1)
+        let head = list
+        list.next = ListNode(2)
+        list.next!.next = ListNode(3)
+        list.next!.next!.next = ListNode(4)
+        list.next!.next!.next!.next = ListNode(5)
+        solutionClass.reverseList(head)
+    }
+    
     private func startContainsDuplicate2() {
         let solutionClass = ContainsDuplicate2()
         print(solutionClass.containsNearbyDuplicate([1,0,1,1], 1))
