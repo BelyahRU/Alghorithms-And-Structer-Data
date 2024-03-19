@@ -26,19 +26,19 @@ class Solutions {
         let nums = [1,2,3,1]
         startContainsDuplicate(nums: nums)
         
-
+        
         
         //valid sudoku
         let board: [[Character]] =
         [["8","3",".",".","7",".",".",".","."]
-        ,["6",".",".","1","9","5",".",".","."]
-        ,[".","9","8",".",".",".",".","6","."]
-        ,["8",".",".",".","6",".",".",".","3"]
-        ,["4",".",".","8",".","3",".",".","1"]
-        ,["7",".",".",".","2",".",".",".","6"]
-        ,[".","6",".",".",".",".","2","8","."]
-        ,[".",".",".","4","1","9",".",".","5"]
-        ,[".",".",".",".","8",".",".","7","9"]]
+         ,["6",".",".","1","9","5",".",".","."]
+         ,[".","9","8",".",".",".",".","6","."]
+         ,["8",".",".",".","6",".",".",".","3"]
+         ,["4",".",".","8",".","3",".",".","1"]
+         ,["7",".",".",".","2",".",".",".","6"]
+         ,[".","6",".",".",".",".","2","8","."]
+         ,[".",".",".","4","1","9",".",".","5"]
+         ,[".",".",".",".","8",".",".","7","9"]]
         startValidSudoku(board)
         
         //two sums
@@ -54,16 +54,16 @@ class Solutions {
         list1.next!.next!.next!.next = ListNode(3)
         list1.next!.next!.next!.next!.next = ListNode(3)
         
-//        var list2 = ListNode(1)
-//        list2.next = ListNode(3)
-//        list2.next!.next = ListNode(4)
+        //        var list2 = ListNode(1)
+        //        list2.next = ListNode(3)
+        //        list2.next!.next = ListNode(4)
         
         let listSolutionObject = LinkedLists()
-//        var res = listSolutionObject.mergeTwoLists(list1, list2)
-//        for _ in 0..<6 {
-//            print(res!.val)
-//            res = res!.next
-//        }
+        //        var res = listSolutionObject.mergeTwoLists(list1, list2)
+        //        for _ in 0..<6 {
+        //            print(res!.val)
+        //            res = res!.next
+        //        }
         var res = listSolutionObject.deleteDuplicates(list1)
         while true {
             if res?.val == nil {
@@ -83,7 +83,16 @@ class Solutions {
         startMiddleOfLL()
         startContainsDuplicate2()
         startReverseLinkedList()
+        startPerm()
     }
+    
+    private func startPerm() {
+        let solutionClass = PermutationAlgorithms()
+        //print(solutionClass.perm(["a", "b", "c"]))
+        var arr = [1 ,2, 3]
+        solutionClass.perm3(&arr)
+    }
+    
     private func startReverseLinkedList() {
         let solutionClass = ReverseLinkedList()
         var list = ListNode(1)

@@ -31,6 +31,7 @@
 		1AE3B3BE2BA7649600E2AFA9 /* MiddleOfTheLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE3B3BD2BA7649600E2AFA9 /* MiddleOfTheLinkedList.swift */; };
 		1AE3B3C02BA7695700E2AFA9 /* ContainsDuplicate2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE3B3BF2BA7695700E2AFA9 /* ContainsDuplicate2.swift */; };
 		1AE3B3C22BA8B7FF00E2AFA9 /* ReverseLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE3B3C12BA8B7FF00E2AFA9 /* ReverseLinkedList.swift */; };
+		1AE3B3C52BA9AD1500E2AFA9 /* 3PermutationAlgorithms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE3B3C42BA9AD1500E2AFA9 /* 3PermutationAlgorithms.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +61,7 @@
 		1AE3B3BD2BA7649600E2AFA9 /* MiddleOfTheLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiddleOfTheLinkedList.swift; sourceTree = "<group>"; };
 		1AE3B3BF2BA7695700E2AFA9 /* ContainsDuplicate2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainsDuplicate2.swift; sourceTree = "<group>"; };
 		1AE3B3C12BA8B7FF00E2AFA9 /* ReverseLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseLinkedList.swift; sourceTree = "<group>"; };
+		1AE3B3C42BA9AD1500E2AFA9 /* 3PermutationAlgorithms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3PermutationAlgorithms.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 		1ABAEC4C2B8628E40053EBDD /* Alghorithms And Structer Data */ = {
 			isa = PBXGroup;
 			children = (
+				1AE3B3C32BA9ACE000E2AFA9 /* Theory */,
 				1ABAEC6E2B8632560053EBDD /* Solved */,
 				1ABAEC612B8629240053EBDD /* Solutions.swift */,
 				1ABAEC702B8632810053EBDD /* Tasks */,
@@ -135,6 +138,14 @@
 				1AE3B3C12BA8B7FF00E2AFA9 /* ReverseLinkedList.swift */,
 			);
 			path = Tasks;
+			sourceTree = "<group>";
+		};
+		1AE3B3C32BA9ACE000E2AFA9 /* Theory */ = {
+			isa = PBXGroup;
+			children = (
+				1AE3B3C42BA9AD1500E2AFA9 /* 3PermutationAlgorithms.swift */,
+			);
+			path = Theory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -218,6 +229,7 @@
 				1A7D4E312B87C61900793E72 /* Best Time to Buy and Sell Stock.swift in Sources */,
 				1ABAEC522B8628E40053EBDD /* ViewController.swift in Sources */,
 				1ABAEC642B86296D0053EBDD /* Pascal's Triangle.swift in Sources */,
+				1AE3B3C52BA9AD1500E2AFA9 /* 3PermutationAlgorithms.swift in Sources */,
 				1ABA0A7D2B90CBF10036DA5B /* Single Number.swift in Sources */,
 				1AE3B3C02BA7695700E2AFA9 /* ContainsDuplicate2.swift in Sources */,
 				1ABA0A7F2B90D4BD0036DA5B /* Power of Two.swift in Sources */,
