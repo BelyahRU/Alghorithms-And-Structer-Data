@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A0994302BE12AC300843AE1 /* Sort Algorithms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A09942F2BE12AC300843AE1 /* Sort Algorithms.swift */; };
 		1A57BFEC2B93662500E7D7A6 /* ValidParentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A57BFEB2B93662500E7D7A6 /* ValidParentheses.swift */; };
 		1A57BFEE2B93714900E7D7A6 /* BaseballGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A57BFED2B93714800E7D7A6 /* BaseballGame.swift */; };
 		1A7D4E312B87C61900793E72 /* Best Time to Buy and Sell Stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7D4E302B87C61900793E72 /* Best Time to Buy and Sell Stock.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A09942F2BE12AC300843AE1 /* Sort Algorithms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sort Algorithms.swift"; sourceTree = "<group>"; };
 		1A57BFEB2B93662500E7D7A6 /* ValidParentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidParentheses.swift; sourceTree = "<group>"; };
 		1A57BFED2B93714800E7D7A6 /* BaseballGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseballGame.swift; sourceTree = "<group>"; };
 		1A7D4E302B87C61900793E72 /* Best Time to Buy and Sell Stock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Best Time to Buy and Sell Stock.swift"; sourceTree = "<group>"; };
@@ -143,6 +145,7 @@
 		1AE3B3C32BA9ACE000E2AFA9 /* Theory */ = {
 			isa = PBXGroup;
 			children = (
+				1A09942F2BE12AC300843AE1 /* Sort Algorithms.swift */,
 				1AE3B3C42BA9AD1500E2AFA9 /* 3PermutationAlgorithms.swift */,
 			);
 			path = Theory;
@@ -224,6 +227,7 @@
 				1ABAEC692B862D5E0053EBDD /* Contains Duplicate.swift in Sources */,
 				1ABA0A812B90D9620036DA5B /* Design Linked List.swift in Sources */,
 				1A57BFEC2B93662500E7D7A6 /* ValidParentheses.swift in Sources */,
+				1A0994302BE12AC300843AE1 /* Sort Algorithms.swift in Sources */,
 				1AE3B3BE2BA7649600E2AFA9 /* MiddleOfTheLinkedList.swift in Sources */,
 				1AE3B3C22BA8B7FF00E2AFA9 /* ReverseLinkedList.swift in Sources */,
 				1A7D4E312B87C61900793E72 /* Best Time to Buy and Sell Stock.swift in Sources */,

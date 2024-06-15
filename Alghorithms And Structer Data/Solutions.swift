@@ -84,6 +84,94 @@ class Solutions {
         startContainsDuplicate2()
         startReverseLinkedList()
         startPerm()
+        start()
+        
+//        start220CodeRun()
+//        start168()
+        start77CodeRun()
+    }
+    private func start() {
+//        let solutionClass = SortAlgorithms()
+//        solutionClass.start()
+    }
+    
+    
+    
+    private func start220CodeRun() {
+        func binarySearch(array: [Int], value: Int) -> Int{
+            if array.count == 1 {
+                return array.first!
+            }
+            var low = 0
+            var high = array.count - 1
+            while low <= high {
+                let mid = low + (high - low) / 2
+                
+                if array[mid] == value {
+                    return array[mid]
+                } else if array[mid] < value {
+                    low = mid + 1
+                } else {
+                    high = mid - 1
+                }
+            }
+            print(low, high)
+            if high < 0 {
+                return array[0]
+            } else if low >= array.count {
+                return array.last!
+            } else {
+                if abs(value - array[low]) > abs(value - array[high]) {
+                    return array[high]
+                } else {
+                    return array[low]
+                }
+            }
+        }
+        
+        print(binarySearch(array: [-29, -20, -17, -13, -12, -11, -2, -1, 6, 7, 9, 14, 18, 24, 25, 29], value: 26))
+    }
+    
+    private func start168() {
+        let countObjects = 4
+        let arrayOfPotentials = [-7, -1,0, -3, -9]
+
+
+        var totalBP = 1
+        var BP2 = 1
+        var counter0 = 0
+
+        for i in arrayOfPotentials {
+            if i == 0 {
+               counter0 += 1
+               totalBP *= i
+            } else {
+               totalBP *= i
+               BP2 *= i
+            }
+        }
+        var maxBP = Int.min
+        var itemToGive = arrayOfPotentials[0]
+        if counter0 > 1 {
+            print(0)
+        } else {
+            for potential in arrayOfPotentials {
+                if potential != 0 {
+                    let currentBP = totalBP / potential
+                    if currentBP > maxBP {
+                        maxBP = currentBP
+                        itemToGive = potential
+                    }
+                } else {
+                    if maxBP < BP2 {
+                        itemToGive = potential
+                        maxBP = BP2
+                    }
+                }
+                print(potential, maxBP)
+            }
+            print(itemToGive)
+        }
     }
     
     private func startPerm() {
