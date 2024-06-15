@@ -85,14 +85,63 @@ class Solutions {
         startReverseLinkedList()
         startPerm()
         start()
-        
+        start100CodeRun()
 //        start220CodeRun()
 //        start168()
-        start77CodeRun()
+//        start77CodeRun()
     }
     private func start() {
 //        let solutionClass = SortAlgorithms()
 //        solutionClass.start()
+    }
+    
+    private func start100CodeRun() {
+        
+        func binarySearch(array: [Int], value: Int) -> Int {
+            if array.count == 1 {
+                return array.first!
+            }
+            var low = 0
+            var high = array.count - 1
+
+            while low <= high {
+                let mid = low + (high - low) / 2
+                if array[mid] == value{
+                    return array[mid]
+                } else if array[mid] > value {
+                    high = mid - 1
+                } else {
+                    low = mid + 1
+                }
+            }
+            if high >= array.count || high < 0{
+                return array[low]
+            } else if low < 0 || low >= array.count{
+                return array[high]
+            } else {
+                if abs(array[low] - value) > abs(array[high] - value) {
+                    return array[high]
+                } else if abs(array[low] - value) == abs(array[high] - value) {
+                    if array[low] > array[high] {
+                        return array[high]
+                    } else {
+                        return array[low]
+                    }
+                    
+                } else {
+                    return array[low]
+                }
+            }
+            
+            
+        }
+
+        let nArr = [-5, 1, 1, 3, 5, 5, 8, 12, 13, 16]
+        let kArr = [0, 3, 7, -17, 23, 11, 0, 11, 15, 7]
+        print("solution for 100")
+        for i in kArr {
+            print(binarySearch(array: nArr, value: i))
+        }
     }
     
     
