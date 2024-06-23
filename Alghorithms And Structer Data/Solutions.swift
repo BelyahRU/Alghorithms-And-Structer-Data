@@ -16,83 +16,262 @@ class Solutions {
     
     //MARK: Main Function witch <on> alghorithm, witch you want
     func setupSolutions() {
+//
+//        //get triangle
+//        let numRows = 5
+//        startTriangle(numRows: numRows)
+//
+//
+//        //duplicate
+//        let nums = [1,2,3,1]
+//        startContainsDuplicate(nums: nums)
+//
+//
+//
+//        //valid sudoku
+//        let board: [[Character]] =
+//        [["8","3",".",".","7",".",".",".","."]
+//         ,["6",".",".","1","9","5",".",".","."]
+//         ,[".","9","8",".",".",".",".","6","."]
+//         ,["8",".",".",".","6",".",".",".","3"]
+//         ,["4",".",".","8",".","3",".",".","1"]
+//         ,["7",".",".",".","2",".",".",".","6"]
+//         ,[".","6",".",".",".",".","2","8","."]
+//         ,[".",".",".","4","1","9",".",".","5"]
+//         ,[".",".",".",".","8",".",".","7","9"]]
+//        startValidSudoku(board)
+//
+//        //two sums
+//        let nums2 = [2,7,11,15]
+//        let target = 9
+//        startTwoSum(nums2, target)
+//
+//        //Merge Linked List
+//        var list1 = ListNode(1)
+//        list1.next = ListNode(1)
+//        list1.next!.next = ListNode(2)
+//        list1.next!.next!.next = ListNode(3)
+//        list1.next!.next!.next!.next = ListNode(3)
+//        list1.next!.next!.next!.next!.next = ListNode(3)
+//
+//        //        var list2 = ListNode(1)
+//        //        list2.next = ListNode(3)
+//        //        list2.next!.next = ListNode(4)
+//
+//        let listSolutionObject = LinkedLists()
+//        //        var res = listSolutionObject.mergeTwoLists(list1, list2)
+//        //        for _ in 0..<6 {
+//        //            print(res!.val)
+//        //            res = res!.next
+//        //        }
+//        var res = listSolutionObject.deleteDuplicates(list1)
+//        while true {
+//            if res?.val == nil {
+//                break
+//            }
+//            print(res!.val)
+//            res = res!.next
+//        }
         
-        //get triangle
-        let numRows = 5
-        startTriangle(numRows: numRows)
-        
-        
-        //duplicate
-        let nums = [1,2,3,1]
-        startContainsDuplicate(nums: nums)
-        
-        
-        
-        //valid sudoku
-        let board: [[Character]] =
-        [["8","3",".",".","7",".",".",".","."]
-         ,["6",".",".","1","9","5",".",".","."]
-         ,[".","9","8",".",".",".",".","6","."]
-         ,["8",".",".",".","6",".",".",".","3"]
-         ,["4",".",".","8",".","3",".",".","1"]
-         ,["7",".",".",".","2",".",".",".","6"]
-         ,[".","6",".",".",".",".","2","8","."]
-         ,[".",".",".","4","1","9",".",".","5"]
-         ,[".",".",".",".","8",".",".","7","9"]]
-        startValidSudoku(board)
-        
-        //two sums
-        let nums2 = [2,7,11,15]
-        let target = 9
-        startTwoSum(nums2, target)
-        
-        //Merge Linked List
-        var list1 = ListNode(1)
-        list1.next = ListNode(1)
-        list1.next!.next = ListNode(2)
-        list1.next!.next!.next = ListNode(3)
-        list1.next!.next!.next!.next = ListNode(3)
-        list1.next!.next!.next!.next!.next = ListNode(3)
-        
-        //        var list2 = ListNode(1)
-        //        list2.next = ListNode(3)
-        //        list2.next!.next = ListNode(4)
-        
-        let listSolutionObject = LinkedLists()
-        //        var res = listSolutionObject.mergeTwoLists(list1, list2)
-        //        for _ in 0..<6 {
-        //            print(res!.val)
-        //            res = res!.next
-        //        }
-        var res = listSolutionObject.deleteDuplicates(list1)
-        while true {
-            if res?.val == nil {
-                break
-            }
-            print(res!.val)
-            res = res!.next
-        }
-        
-        startExcel()
-        startSingleNumber()
-        startPowerOfTwo()
-        startBestProfit()
-        startReverseWords()
-        startValidParentheses()
-        startBaseballGame()
-        startMiddleOfLL()
-        startContainsDuplicate2()
-        startReverseLinkedList()
-        startPerm()
-        start()
-        start100CodeRun()
+//        startExcel()
+//        startSingleNumber()
+//        startPowerOfTwo()
+//        startBestProfit()
+//        startReverseWords()
+//        startValidParentheses()
+//        startBaseballGame()
+//        startMiddleOfLL()
+//        startContainsDuplicate2()
+//        startReverseLinkedList()
+//        startPerm()
+//        start()
+//        start100CodeRun()
+//        start101()
+//        start106()
 //        start220CodeRun()
 //        start168()
 //        start77CodeRun()
+        print(quickSort(array: Array(Set([1, 2, -3, 0 ,81, -64]))))
+        SortAlgorithms().start()
+        coderun50()
+        coderun51()
     }
+    func coderun51() {
+        let wordsArray = ["one", "two", "one", "tho", "three"]
+        var resultArray = [Int]()
+        var dict = [String: Int]()
+        for i in wordsArray {
+            if dict[i] == nil {
+                dict[i] = 0
+                resultArray.append(0)
+            } else {
+                dict[i] = dict[i]! + 1
+                resultArray.append(dict[i]!)
+            }
+        }
+        print(dict)
+        print(dict.values)
+        print(resultArray)
+    }
+    
+    func coderun50() {
+        let wordsArray = [
+            "q", "w", "e", "r", "t", "y", "u", "i", "o", "p",
+            "a", "s", "d", "f", "g", "h", "j", "k", "l",
+            "z", "x", "c", "v", "b", "n", "m"
+        ]
+        var dict = [String: Int]()
+
+        for i in wordsArray {
+            if dict[i] == nil {
+                dict[i] = 1
+            } else {
+                dict[i] = dict[i]! + 1
+            }
+        }
+        
+        let sortedDict = dict.sorted { first, second in
+            if first.value != second.value {
+                return first.value > second.value
+            } else {
+                return first.key < second.key
+            }
+        }
+
+        print(sortedDict.first!.key)
+
+    }
+    
+    func quickSort(array: [Int]) -> [Int] {
+        if array.count <= 1{
+            return array
+        }
+
+        let pivot = array[array.count / 2]
+
+        let leftSide = array.filter({ $0<pivot })
+        let rightSide = array.filter({ $0>pivot })
+
+        return quickSort(array: leftSide) + [pivot] + quickSort(array: rightSide)
+    }
+    
     private func start() {
 //        let solutionClass = SortAlgorithms()
 //        solutionClass.start()
+    }
+    
+    private func start106() {
+        func binarySearch(array: [Int], k: Int){
+            var low = 0
+            var high = array.max()!
+            var len = 0
+            while low < high {
+                let mid = (low + high) / 2
+                
+                if mid == 0 {
+                    low = mid + 1
+                    continue
+                }
+                var count = 0
+                for i in array {
+                    count += i / mid
+                }
+                
+                if count < k {
+                    high = mid - 1
+                } else {
+                    low = mid + 1
+                    len = max(len, mid)
+                }
+            }
+            print(len)
+            
+        }
+        binarySearch(array: [6,
+                     5,
+                     1,
+                     0,], k: 11)
+        
+    }
+    
+    private func start101() {
+        func binarySearch(w: Int, h: Int, n: Int) -> Int{
+            var low = 0
+            var high = Int(max(w, h)) * n
+
+            while high > low {
+                let mid = low + (high - low) / 2
+                let countDip = (mid / w) * (mid / h)
+                
+                if countDip < n {
+                    low = mid + 1
+                } else {
+                    high = mid - 1
+                }
+            }
+            print(high, low)
+            return high
+        }
+        
+        print("solution for 101")
+        
+        print(binarySearch(w: 2, h: 3, n: 10))
+    }
+    
+    private func start99CodeRun() {
+        func binarySearch(array: [Int], value: Int) -> String {
+            if array.count == 1{
+                if array.first! == value {
+                    return "YES"
+                } else {
+                    return "NO"
+                }
+            }
+
+            var high = array.count - 1
+            var low = 0
+
+            while low <= high {
+                let mid = low + (high - low) / 2
+
+                if array[mid] == value {
+                    return "YES"
+                } else if array[mid] > value {
+                    high = mid - 1
+                } else {
+                    low = mid + 1
+                }
+            }
+            if low >= array.count || low < 0 {
+                if array[high] == value {
+                    return "YES"
+                } else {
+                    return "NO"
+                }
+            } else if high >= array.count || high < 0 {
+                if array[low] == value {
+                    return "YES"
+                } else {
+                    return "NO"
+                }
+            } else {
+                if array[low] == value || array[high] == value {
+                    return "YES"
+                } else  {
+                    return "NO"
+            }
+            }
+
+            
+        }
+
+        let NMArray = readLine()!
+        let nArray = readLine()!.split(separator: " ").map{ Int($0)! }
+        let kArray = readLine()!.split(separator: " ").map{ Int($0)! }
+
+        for i in kArray {
+            print(binarySearch(array: nArray, value: i))
+        }
     }
     
     private func start100CodeRun() {

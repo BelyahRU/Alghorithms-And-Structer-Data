@@ -9,11 +9,13 @@ import Foundation
 class SortAlgorithms {
     
     func start() {
-        var array = [-1, -20, -17, 25, 24, 18, -12, -11, 14, 9, 7, -2, -29, -13, 29, 6]
+        var array = [-1,-1, -20, -17, 25, 24, 18, -12, -11, 14, 9, 7, -2, -29, -13, 29, 6]
         let result = quickSort(array: array)
         
         print(result)
     }
+    
+    
     
     func bubbleSort(array: [Int]) -> [Int] {
         var arr = array
@@ -83,11 +85,13 @@ class SortAlgorithms {
         if array.count <= 1 {
             return array
         }
+//        array.removeFirst()
         var pivot = array[array.count / 2]//опорное число
         var leftArray = array.filter{$0 < pivot}
         var rightArray = array.filter{$0 > pivot}
+        var pivotArray = array.filter{$0 == pivot}
         
-        return quickSort(array: leftArray) + [pivot] +  quickSort(array: rightArray)
+        return quickSort(array: leftArray) + pivotArray +  quickSort(array: rightArray)
     }
 
     
