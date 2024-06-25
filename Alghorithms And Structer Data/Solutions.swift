@@ -16,86 +16,113 @@ class Solutions {
     
     //MARK: Main Function witch <on> alghorithm, witch you want
     func setupSolutions() {
-//
-//        //get triangle
-//        let numRows = 5
-//        startTriangle(numRows: numRows)
-//
-//
-//        //duplicate
-//        let nums = [1,2,3,1]
-//        startContainsDuplicate(nums: nums)
-//
-//
-//
-//        //valid sudoku
-//        let board: [[Character]] =
-//        [["8","3",".",".","7",".",".",".","."]
-//         ,["6",".",".","1","9","5",".",".","."]
-//         ,[".","9","8",".",".",".",".","6","."]
-//         ,["8",".",".",".","6",".",".",".","3"]
-//         ,["4",".",".","8",".","3",".",".","1"]
-//         ,["7",".",".",".","2",".",".",".","6"]
-//         ,[".","6",".",".",".",".","2","8","."]
-//         ,[".",".",".","4","1","9",".",".","5"]
-//         ,[".",".",".",".","8",".",".","7","9"]]
-//        startValidSudoku(board)
-//
-//        //two sums
-//        let nums2 = [2,7,11,15]
-//        let target = 9
-//        startTwoSum(nums2, target)
-//
-//        //Merge Linked List
-//        var list1 = ListNode(1)
-//        list1.next = ListNode(1)
-//        list1.next!.next = ListNode(2)
-//        list1.next!.next!.next = ListNode(3)
-//        list1.next!.next!.next!.next = ListNode(3)
-//        list1.next!.next!.next!.next!.next = ListNode(3)
-//
-//        //        var list2 = ListNode(1)
-//        //        list2.next = ListNode(3)
-//        //        list2.next!.next = ListNode(4)
-//
-//        let listSolutionObject = LinkedLists()
-//        //        var res = listSolutionObject.mergeTwoLists(list1, list2)
-//        //        for _ in 0..<6 {
-//        //            print(res!.val)
-//        //            res = res!.next
-//        //        }
-//        var res = listSolutionObject.deleteDuplicates(list1)
-//        while true {
-//            if res?.val == nil {
-//                break
-//            }
-//            print(res!.val)
-//            res = res!.next
-//        }
+        //
+        //        //get triangle
+        //        let numRows = 5
+        //        startTriangle(numRows: numRows)
+        //
+        //
+        //        //duplicate
+        //        let nums = [1,2,3,1]
+        //        startContainsDuplicate(nums: nums)
+        //
+        //
+        //
+        //        //valid sudoku
+        //        let board: [[Character]] =
+        //        [["8","3",".",".","7",".",".",".","."]
+        //         ,["6",".",".","1","9","5",".",".","."]
+        //         ,[".","9","8",".",".",".",".","6","."]
+        //         ,["8",".",".",".","6",".",".",".","3"]
+        //         ,["4",".",".","8",".","3",".",".","1"]
+        //         ,["7",".",".",".","2",".",".",".","6"]
+        //         ,[".","6",".",".",".",".","2","8","."]
+        //         ,[".",".",".","4","1","9",".",".","5"]
+        //         ,[".",".",".",".","8",".",".","7","9"]]
+        //        startValidSudoku(board)
+        //
+        //        //two sums
+        //        let nums2 = [2,7,11,15]
+        //        let target = 9
+        //        startTwoSum(nums2, target)
+        //
+        //        //Merge Linked List
+        //        var list1 = ListNode(1)
+        //        list1.next = ListNode(1)
+        //        list1.next!.next = ListNode(2)
+        //        list1.next!.next!.next = ListNode(3)
+        //        list1.next!.next!.next!.next = ListNode(3)
+        //        list1.next!.next!.next!.next!.next = ListNode(3)
+        //
+        //        //        var list2 = ListNode(1)
+        //        //        list2.next = ListNode(3)
+        //        //        list2.next!.next = ListNode(4)
+        //
+        //        let listSolutionObject = LinkedLists()
+        //        //        var res = listSolutionObject.mergeTwoLists(list1, list2)
+        //        //        for _ in 0..<6 {
+        //        //            print(res!.val)
+        //        //            res = res!.next
+        //        //        }
+        //        var res = listSolutionObject.deleteDuplicates(list1)
+        //        while true {
+        //            if res?.val == nil {
+        //                break
+        //            }
+        //            print(res!.val)
+        //            res = res!.next
+        //        }
         
-//        startExcel()
-//        startSingleNumber()
-//        startPowerOfTwo()
-//        startBestProfit()
-//        startReverseWords()
-//        startValidParentheses()
-//        startBaseballGame()
-//        startMiddleOfLL()
-//        startContainsDuplicate2()
-//        startReverseLinkedList()
-//        startPerm()
-//        start()
-//        start100CodeRun()
-//        start101()
-//        start106()
-//        start220CodeRun()
-//        start168()
-//        start77CodeRun()
+        //        startExcel()
+        //        startSingleNumber()
+        //        startPowerOfTwo()
+        //        startBestProfit()
+        //        startReverseWords()
+        //        startValidParentheses()
+        //        startBaseballGame()
+        //        startMiddleOfLL()
+        //        startContainsDuplicate2()
+        //        startReverseLinkedList()
+        //        startPerm()
+        //        start()
+        //        start100CodeRun()
+        //        start101()
+        //        start106()
+        //        start220CodeRun()
+        //        start168()
+        //        start77CodeRun()
         print(quickSort(array: Array(Set([1, 2, -3, 0 ,81, -64]))))
         SortAlgorithms().start()
         coderun50()
         coderun51()
+        coderun61()
     }
+    func coderun54() {
+        let countKids = Int(readLine()!)!
+        var intersectionSet = Set<String>()
+        var allLanguagesSet = Set<Int>()
+        for _ in 0..<countKids {
+            let m = Int(readLine()!)!
+            var languages = [String]()
+            for _ in 0..<m {
+                languages.append(String(readLine()!))
+            }
+            intersectionSet = intersectionSet.intersection(Set(languages))
+            
+        }
+    }
+    
+    func coderun61() {
+        let array1 = [1, 2, 3]
+        let array2 = [3, 2, 4]
+        
+        let set1 = Set(array1)
+        let set2 = Set(array2)
+        print(set1.intersection(set2))
+        print(set1.intersection(set2))
+
+    }
+    
     func coderun51() {
         let wordsArray = ["one", "two", "one", "tho", "three"]
         var resultArray = [Int]()
