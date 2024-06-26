@@ -116,6 +116,7 @@ class Solutions {
         let array1 = [1, 2, 3]
         let array2 = [3, 2, 4]
         
+        
         let set1 = Set(array1)
         let set2 = Set(array2)
         print(set1.intersection(set2))
